@@ -1,5 +1,5 @@
 # Todoenda
-Non una semplice To-Do List, ma un'esercizio pratico per la creazione di un'applicazione full stack.
+Non una semplice To-Do List, ma un esercizio pratico per la creazione di un'applicazione full stack.
 
 ### Frontend
 Questa applicazione utilizza [React](https://reactjs.org/).
