@@ -1,0 +1,16 @@
+.todolist__summary {
+  color: #495057;
+  margin-top: 2rem;
+}
+.todolist__summary__group {
+  display: flex;
+  align-items: center;
+}
+.todolist__summary__group p {
+  flex: 1 0 0;
+  margin: 0 1rem 0 0;
+  font-size: 0.933rem;
+}
+.todolist__summary__group p strong {
+  font-weight: 600;
+}

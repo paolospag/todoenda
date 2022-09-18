@@ -1,0 +1,33 @@
+.todolist__item {
+  order: 0;
+  flex: 0 0 100%;
+  max-width: 100%;
+  display: flex;
+  padding: 0.75rem;
+  column-gap: 0.75rem;
+  align-items: center;
+  background-color: #f8f9fa;
+}
+.todolist__item--completed {
+  order: 1;
+  opacity: 0.65;
+}
+.todolist__item__task {
+  flex: 1 0 0;
+}
+.todolist__item__task > * {
+  margin: 0;
+}
+.todolist__item__task > h6 {
+  font-weight: 500;
+  font-size: inherit;
+}
+.todolist__item--completed .todolist__item__task > h6 {
+  text-decoration: line-through;
+}
+.todolist__item__task > p,
+.todolist__item__task > time {
+  color: #888;
+  font-size: 0.8rem;
+  text-decoration: none;
+}
